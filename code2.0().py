@@ -25,14 +25,14 @@ def add_triangle_one_image(original_image, percent_of_side=.3):
     draw= ImageDraw.Draw(rounded_mask)
     
     
-    draw.polygon([(1,1), (20, 80), (80,20)], fill=(200,0,0))
+    draw.polygon([(1,1), (20, 80), (80,20)], fill=(200,0,0,0))
     
     
     
     draw.rectangle([(0,height),(width,0)], fill=(127,0,127,255))
     
     
-    
+    draw.polygon([(1,1), (20, 80), (80,20)], fill=(200,0,0,0))
    
                    
     # Uncomment the following line to show the mask
